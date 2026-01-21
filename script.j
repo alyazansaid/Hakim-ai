@@ -10,7 +10,10 @@ function addMessage(text, cls) {
 }
 
 // استبدل 'YOUR_API_KEY_HERE' بالمفتاح حقك
-const OPENAI_API_KEY = "YOUR_API_KEY_HERE";
+const OPENAI_API_KEY = "// هذا بدل الكود اللي يستخدم OpenAI API
+setTimeout(() => {
+  addMessage("حكيم: فهمتك، هذا رد تجريبي 🤍", "hakim");
+}, 500);";
 
 input.addEventListener("keydown", async (e) => {
   if (e.key === "Enter" && input.value) {
